@@ -2,7 +2,7 @@
 Angular Weather Application
 
 This project is a responsive weather application built with Angular. It allows users to view the current weather, get forecasts, and search for weather information by city. The project uses WeatherAPI.com for fetching weather data and incorporates SCSS, Bootstrap, and Tailwind CSS for styling.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  15.2.11.
+This project was generated with [Angular CLI](https://github.com/ayush-develop/Weather-App.git) version 15.2.11.
 ## Features
 - View current weather information
 - Get weather forecasts
