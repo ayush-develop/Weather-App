@@ -1,0 +1,67 @@
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+background: url('/assets/background.webp') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+mat-toolbar {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+.search-card {
+  margin: 1em 0;
+  
+}
+
+.weather-card {
+  margin: 1em 0;
+}
+
+.forecast-card {
+  margin: 1em 0;
+}
+
+.forecast-day {
+  margin: 1em 0;
+}
+
+.weather-info, .forecast-info {
+  display: flex;
+  align-items: center;
+}
+
+.weather-info img, .forecast-info img {
+  margin-right: 1em;
+}

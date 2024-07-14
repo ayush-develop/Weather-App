@@ -1,0 +1,9 @@
+
+<mat-toolbar color="primary">
+  <span>Weather Dashboard</span>
+</mat-toolbar>
+<div class="container">
+  <app-search (citySelected)="onCitySelected($event)"></app-search>
+  <app-current-weather [city]="selectedCity"></app-current-weather>
+  <app-forecast [city]="selectedCity"></app-forecast>
+</div>

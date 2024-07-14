@@ -1,0 +1,12 @@
+
+<mat-card class="search-card">
+    <mat-form-field class="search-field" appearance="outline">
+      <mat-label>Search for a city</mat-label>
+      <input matInput [(ngModel)]="query" (input)="onSearch($event)">
+    </mat-form-field>
+    <mat-list *ngIf="cities.length" class="city-list">
+      <mat-list-item *ngFor="let city of cities" (click)="selectCity(city)">
+        {{ city.name }}
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
