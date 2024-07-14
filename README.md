@@ -26,10 +26,12 @@ Follow these steps to install the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/ayush-develop/Weather-App.git
    cd weather-app
  ##  Install Angular CLI:
     npm install -g @angular/cli
+    cd weather-dashboard
+    npm install @angular/material@angular/flex-layout
 ## Install project dependencies:
 npm install
 ## Install Bootstrap:
